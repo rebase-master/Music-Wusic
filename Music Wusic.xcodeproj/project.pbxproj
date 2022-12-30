@@ -16,6 +16,10 @@
 		89E21DEC295C725E0018C602 /* Music_WusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E21DEB295C725E0018C602 /* Music_WusicTests.swift */; };
 		89E21DF6295C725E0018C602 /* Music_WusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E21DF5295C725E0018C602 /* Music_WusicUITests.swift */; };
 		89E21DF8295C725E0018C602 /* Music_WusicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E21DF7295C725E0018C602 /* Music_WusicUITestsLaunchTests.swift */; };
+		89E21E08295CAD410018C602 /* maroon5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89E21E05295CAD410018C602 /* maroon5.mp3 */; };
+		89E21E09295CAD410018C602 /* eva.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89E21E06295CAD410018C602 /* eva.mp3 */; };
+		89E21E0A295CAD410018C602 /* taylorswift.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89E21E07295CAD410018C602 /* taylorswift.mp3 */; };
+		89E21E0C295EC1CA0018C602 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E21E0B295EC1CA0018C602 /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		89E21DF1295C725E0018C602 /* Music WusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music WusicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E21DF5295C725E0018C602 /* Music_WusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_WusicUITests.swift; sourceTree = "<group>"; };
 		89E21DF7295C725E0018C602 /* Music_WusicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_WusicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89E21E05295CAD410018C602 /* maroon5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maroon5.mp3; sourceTree = "<group>"; };
+		89E21E06295CAD410018C602 /* eva.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eva.mp3; sourceTree = "<group>"; };
+		89E21E07295CAD410018C602 /* taylorswift.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = taylorswift.mp3; sourceTree = "<group>"; };
+		89E21E0B295EC1CA0018C602 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +107,13 @@
 		89E21DD3295C725D0018C602 /* Music Wusic */ = {
 			isa = PBXGroup;
 			children = (
+				89E21E06295CAD410018C602 /* eva.mp3 */,
+				89E21E05295CAD410018C602 /* maroon5.mp3 */,
+				89E21E07295CAD410018C602 /* taylorswift.mp3 */,
+				89E21E04295CAA960018C602 /* Audio */,
 				89E21DD4295C725D0018C602 /* AppDelegate.swift */,
 				89E21DD6295C725D0018C602 /* SceneDelegate.swift */,
+				89E21E0B295EC1CA0018C602 /* PlayerViewController.swift */,
 				89E21DD8295C725D0018C602 /* ViewController.swift */,
 				89E21DDA295C725D0018C602 /* Main.storyboard */,
 				89E21DDD295C725E0018C602 /* Assets.xcassets */,
@@ -125,6 +138,13 @@
 				89E21DF7295C725E0018C602 /* Music_WusicUITestsLaunchTests.swift */,
 			);
 			path = "Music WusicUITests";
+			sourceTree = "<group>";
+		};
+		89E21E04295CAA960018C602 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +253,10 @@
 			files = (
 				89E21DE1295C725E0018C602 /* LaunchScreen.storyboard in Resources */,
 				89E21DDE295C725E0018C602 /* Assets.xcassets in Resources */,
+				89E21E08295CAD410018C602 /* maroon5.mp3 in Resources */,
 				89E21DDC295C725D0018C602 /* Main.storyboard in Resources */,
+				89E21E09295CAD410018C602 /* eva.mp3 in Resources */,
+				89E21E0A295CAD410018C602 /* taylorswift.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89E21DD9295C725D0018C602 /* ViewController.swift in Sources */,
+				89E21E0C295EC1CA0018C602 /* PlayerViewController.swift in Sources */,
 				89E21DD5295C725D0018C602 /* AppDelegate.swift in Sources */,
 				89E21DD7295C725D0018C602 /* SceneDelegate.swift in Sources */,
 			);
@@ -445,6 +469,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +498,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
